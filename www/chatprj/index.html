@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Login</title>
+</head>
+<body>
+    <h1>Hello web</h1>
+    <div align="center">
+        <table>
+            <tr>
+                <!--//tr表示行-->
+                <td>
+                    <!--//td表示列-->
+                    <label>User:</label>
+                    <input id="username">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label>password:</label>
+                    <input id="password" type="password">
+                </td>
+            </tr>
+            <tr>
+                <!--//tr表示行-->
+                <td aligen ="center">
+                    <!--//td表示列-->
+                    <button id="register" style="font-size:18px" onelick="regist()">register</button>
+                    <button id="login" style="font-size:18px" onelick="login()">login</button>
+                </td>
+            </tr>
+        </table>
+    </div>
+
+    <script src="./js/socket.io.js"></script>
+    <script src="./js/main.js"></script>
+</body>
+</html>
